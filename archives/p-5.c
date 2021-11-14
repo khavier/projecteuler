@@ -4,13 +4,13 @@
 int main() {
 
     int limit  = 20;
-    int output = 1;
+    int output = 2560;
     int status = 1;
     int i;
 
     while (1) {
 
-        for (i = 1; i <= limit; i++) {
+        for (i = 11; i <= limit; i++) {
 
             if (output % i != 0) {
                 status = 0;
