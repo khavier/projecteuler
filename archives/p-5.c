@@ -12,8 +12,10 @@ int main() {
 
         for (i = 1; i <= limit; i++) {
 
-            if (output % i != 0)
+            if (output % i != 0) {
                 status = 0;
+		break;
+	    }
 
         }
 
